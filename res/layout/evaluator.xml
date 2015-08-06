@@ -1,0 +1,80 @@
+
+ <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:orientation="vertical"
+       android:padding="10dp" 
+     
+       android:background="@drawable/background"
+       >
+  
+       <ImageView
+                android:id="@+id/logo"
+                android:layout_width="wrap_content"
+                android:layout_height="110dp"
+                android:src="@drawable/logo_big"
+              
+                android:layout_gravity="center_horizontal"/>
+
+       
+      
+       
+
+    
+
+       <TextView
+           android:id="@+id/LINE"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentLeft="true"
+           android:layout_below="@+id/textView2"
+           android:drawableBottom="@drawable/line"
+           android:textColor="#FF0000" />
+
+       <Spinner
+           android:id="@+id/spinner1"
+           android:layout_width="fill_parent"
+           android:layout_height="35dp" 
+          android:layout_gravity="center"
+          android:layout_marginLeft="30dp"
+          android:layout_marginRight="30dp"
+           android:layout_marginTop="70dp"
+           android:entries="@array/evaluator"
+           android:background="@drawable/shape"
+           />
+
+       <Button
+        android:id="@+id/fill"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+      android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:background="#004165"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="Fill"
+        android:textColor="#FFFFFF" 
+       
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+        />
+       
+       
+       <LinearLayout
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:layout_marginTop="15dp"
+            >
+       
+       
+       
+       
+       </LinearLayout>
+   </LinearLayout>
+    
+    
+    
+  
+   

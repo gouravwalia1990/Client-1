@@ -1,0 +1,87 @@
+
+ <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:orientation="vertical"
+       android:padding="10dp" 
+       android:background="@drawable/background"
+       >
+  
+       <ImageView
+                android:id="@+id/logo"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:src="@drawable/logo_big"
+              
+                android:layout_gravity="center_horizontal"/>
+
+       <TextView
+           android:id="@+id/Login"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="5dp"
+           android:gravity="center_horizontal"
+           android:paddingLeft="12dp"
+           android:text="Smart Meeting Manager"
+           android:textColor="#772432"
+           android:textAppearance="?android:attr/textAppearanceLarge"
+           android:textSize="25dp"
+           android:layout_gravity="center" />
+      
+       
+
+    
+
+       <TextView
+           android:id="@+id/LINE"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentLeft="true"
+           android:layout_below="@+id/textView2"
+           android:drawableBottom="@drawable/line"
+           android:textColor="#FF0000" />
+
+       <Button
+        android:id="@+id/register"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="24dp"
+        android:background="#004165"
+        android:text="Register"
+        android:textColor="#FFFFFF" 
+        android:layout_gravity="center"
+         android:onClick="Login_Click"
+                   android:textAppearance="?android:attr/textAppearanceLarge"
+        />
+
+       
+ 
+  
+
+       <Button
+        android:id="@+id/login"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="24dp"
+        android:background="#004165"
+        android:text="Log In"
+        android:textColor="#FFFFFF" 
+        android:layout_gravity="center"
+         android:onClick="Login_Click"
+                   android:textAppearance="?android:attr/textAppearanceLarge"
+        />
+       
+       
+       
+   </LinearLayout>
+    
+    
+    
+  
+   

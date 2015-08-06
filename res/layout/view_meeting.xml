@@ -1,0 +1,87 @@
+
+ 
+
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"  
+      
+       android:layout_width="fill_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:background="#004165"
+  android:padding="10dp"
+       
+       >
+       
+     <LinearLayout
+      
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+        android:background="#FFFFFF"
+
+       
+       >
+    
+    
+
+    
+       
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#772432"
+                android:gravity="center"
+                android:padding="6dp"
+                android:text="Meeting Name"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_weight="5.12"
+                android:background="#772432"
+                android:gravity="center"
+                android:padding="6dp"
+                android:text="Time"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_weight="1.67"
+                android:background="#772432"
+                android:gravity="center"
+                android:padding="6dp"
+                android:text="Status"
+                android:textColor="#FFFFFF" />
+
+                  </LinearLayout>
+                   
+         <LinearLayout
+      
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:orientation="vertical"
+        android:background="#FFFFFF"
+android:padding="10dp"
+       
+       >
+   
+    <ListView
+         android:id="@+id/list_view_meeting"
+         android:layout_width="match_parent"
+         android:layout_height="fill_parent">
+
+            </ListView>
+             </LinearLayout>
+           
+</LinearLayout>
+
+    
+   
+   
+   

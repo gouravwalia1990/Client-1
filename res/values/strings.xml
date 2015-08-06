@@ -1,8 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-   <string name="app_name">SMM</string>
+    <string name="app_name">SMMC</string>
+    <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>View Meeting And Add Review</item>
+        <item>Role Taker Tools</item>
+        <item>Register Slots</item>
+        <item>Log Out</item>
+        <item>Settings</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_actionnnn</item>
+        <item>@drawable/ic_people</item>
+        <item>@drawable/ic_photos</item>
+        <item>@drawable/ic_actionl</item>
+        <item>@drawable/ic_actions</item>
+    </array>
+
+    <string-array name="evaluator">
+        <item>Select Evaluator from List </item>
+        <item>Evaluator</item>
+        <item>Evaluator1</item>
+        <item>Evaluator2</item>
+    </string-array>
+    <string-array name="name">
+        <item>Select name from List </item>
+        <item>Gautam</item>
+        <item>Uttam</item>
+        <item>Nitin</item>
+    </string-array>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
     <string name="menu_settings">Settings</string>
+    <string name="title_activity_timer">Timer</string>
+    <string name="title_activity_stopwatch">Stopwatch</string>
+    <string name="title_activity_ah">AH</string>
+    <string name="title_activity_nextregister">Nextregister</string>
+    <string name="title_activity_second_nextreg">SecondNextreg</string>
 
 </resources>

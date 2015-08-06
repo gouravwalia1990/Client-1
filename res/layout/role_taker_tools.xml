@@ -1,0 +1,110 @@
+
+ <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:orientation="vertical"
+       android:padding="10dp" 
+       android:background="@drawable/background"
+       >
+  
+       <ImageView
+                android:id="@+id/logo"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:src="@drawable/logo_big"
+              
+                android:layout_gravity="center_horizontal"/>
+
+       <TextView
+           android:id="@+id/Login"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="5dp"
+           android:gravity="center_horizontal"
+           android:paddingLeft="12dp"
+           android:text="Smart Meeting Manager"
+           android:textColor="#772432"
+           android:textAppearance="?android:attr/textAppearanceLarge"
+           android:textSize="25dp"
+           android:layout_gravity="center" />
+      
+       
+
+    
+
+       <TextView
+           android:id="@+id/LINE"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentLeft="true"
+           android:layout_below="@+id/textView2"
+           android:drawableBottom="@drawable/line"
+           android:textColor="#FF0000" />
+
+       <Button
+        android:id="@+id/timer"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="24dp"
+        android:background="#004165"
+        android:text="Timer"
+        android:textColor="#FFFFFF" 
+        android:layout_gravity="center"
+                   android:textAppearance="?android:attr/textAppearanceLarge"
+        />
+
+       
+ 
+  <Button
+        android:id="@+id/evaluator"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="24dp"
+        android:background="#004165"
+        android:text="Evaluator Form"
+        android:textColor="#FFFFFF" 
+        android:layout_gravity="center"
+                   android:textAppearance="?android:attr/textAppearanceLarge"
+        />
+  <Button
+        android:id="@+id/grammarian"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="24dp"
+        android:background="#004165"
+        android:text="Grammarian"
+        android:textColor="#FFFFFF" 
+        android:layout_gravity="center"
+                   android:textAppearance="?android:attr/textAppearanceLarge"
+        />
+
+       <Button
+        android:id="@+id/ahcounter"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="24dp"
+        android:background="#004165"
+        android:text="AH Counter"
+        android:textColor="#FFFFFF" 
+        android:layout_gravity="center"
+                   android:textAppearance="?android:attr/textAppearanceLarge"
+        />
+       
+       
+       
+   </LinearLayout>
+    
+    
+    
+  
+   

@@ -1,0 +1,141 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"  
+    
+   android:id="@+id/b"
+    android:background="#004165"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+ android:padding="10dp"
+     >
+   
+
+  
+   <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:orientation="vertical"
+        android:background="#FFFFFF"
+android:padding="10dp"
+       
+       >
+       <TextView
+    android:id="@+id/textView1"
+    android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_alignParentLeft="true"
+          android:textSize="30sp"
+            android:textColor="#772432"
+          android:layout_marginTop="40dp"
+   	android:gravity="center"
+   	android:paddingLeft="8dp"
+   	android:paddingRight="8dp"
+           android:ems="10"
+           android:text="UPDATE"
+           android:inputType="phone"/>
+
+<TextView
+           android:id="@+id/LINE1"
+           android:layout_marginTop="10dp"
+           android:layout_width="match_parent"
+           android:layout_height="3dp"
+           android:layout_alignParentLeft="true"
+           android:layout_below="@+id/textView2"
+           android:drawableBottom="@drawable/line"
+           android:textColor="#004165"
+            android:background="#004165" />
+       
+        <EditText
+            android:id="@+id/meeting"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView4"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/shape"
+            android:ellipsize="end"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="  Meeting Name   "
+            android:inputType="textEmailAddress"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp" />
+
+    <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+         <EditText
+           android:id="@+id/time"
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:layout_alignParentLeft="true"
+           android:layout_below="@+id/editText1"
+           android:layout_marginTop="40dp"
+           android:background="@drawable/shape"
+           
+            android:ellipsize="end"
+   	android:gravity="center"
+   	android:paddingLeft="8dp"
+   	android:paddingRight="8dp"
+           android:ems="10"
+           android:hint=" Time and Date"
+          android:layout_weight="1"
+          />
+
+         <ImageView
+             android:id="@+id/imageView1"
+            android:layout_width="134dp"
+             android:layout_height="50dp"
+             android:layout_marginLeft="4dp"
+             android:layout_marginTop="40dp"
+             android:layout_weight="1"
+             android:src="@drawable/cc" />
+
+       
+</LinearLayout>
+  <LinearLayout
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="15dp"
+             android:orientation="horizontal"
+               android:layout_gravity="center"
+             android:layout_marginBottom="30dp" >
+
+                     <Button
+                          android:id="@+id/create"
+                         android:layout_width="120dp"
+                         android:layout_height="40dp"
+                  android:layout_marginLeft="20dp"
+                         android:background="#004165"
+                         android:onClick="Login_Click"
+                         android:text="UPDATE"
+                         android:textColor="#FFFFFF"
+                         android:textSize="18sp" />
+
+   <Button
+             android:id="@+id/cancel"
+               android:layout_width="120dp"
+             android:layout_height="40dp"
+   android:layout_marginLeft="4dp"
+            
+             android:background="#004165"
+             android:onClick="Login_Click"
+             android:text="CANCEL"
+             android:textColor="#FFFFFF"
+             android:textSize="18sp" />
+         
+       
+
+          
+         </LinearLayout>
+     
+
+           
+           
+           </LinearLayout>
+           
+           
+
+<!-- </ScrollView> -->
+ </RelativeLayout>  

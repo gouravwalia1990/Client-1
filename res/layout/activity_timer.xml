@@ -1,0 +1,111 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"  
+    
+   android:id="@+id/c"
+   
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+      android:background="@drawable/background_wm"
+     >
+ <LinearLayout
+         android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:orientation="vertical"
+       android:padding="10dp" 
+  
+       >
+  
+       <ImageView
+                android:id="@+id/logo"
+                android:layout_width="wrap_content"
+                android:layout_height="110dp"
+                android:src="@drawable/logo_big"
+              
+                android:layout_gravity="center_horizontal"/>
+
+       <TextView
+           android:id="@+id/register_slot"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="5dp"
+           android:gravity="center_horizontal"
+           android:paddingLeft="12dp"
+           android:text="Timer"
+           android:textColor="#772432"
+           android:textAppearance="?android:attr/textAppearanceLarge"
+           android:textSize="30sp"
+           android:layout_gravity="center" />
+      
+       
+
+    
+
+       <TextView
+           android:id="@+id/LINE"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentLeft="true"
+           android:layout_below="@+id/textView2"
+           android:drawableBottom="@drawable/line"
+           android:textColor="#FF0000" />
+
+       <Spinner
+           android:id="@+id/spinner1"
+           android:layout_width="fill_parent"
+           android:layout_height="35dp" 
+          android:layout_gravity="center"
+         	android:paddingLeft="8dp"
+   	android:paddingRight="8dp"
+      android:layout_marginTop="60dp"
+           android:entries="@array/name"
+           android:background="@drawable/shape"
+           />
+<TextView
+android:id="@+id/textTimer"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_above="@+id/btnPause"
+android:layout_centerHorizontal="true"
+android:layout_gravity="center"
+android:layout_marginBottom="37dp"
+android:layout_marginTop="25dp"
+android:textSize="40sp"
+     android:textColor="#772432"
+android:text="00:00:00"/>
+       
+       <LinearLayout
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+           android:orientation="horizontal"
+           android:paddingTop="5dp" >
+
+           <Button
+              android:id="@+id/btnStart"
+               android:layout_width="100dp"
+               android:layout_height="35dp"
+               android:text="Start"
+               android:textColor="#FFFFFF"
+                android:background="#004165" />
+
+           
+           <Button
+             android:id="@+id/btnPause"
+               android:layout_width="100dp"
+               android:layout_height="35dp"
+               android:text="Stop"
+               android:layout_marginLeft="5dp"
+               android:textColor="#FFFFFF"
+                android:background="#004165" />
+           
+           
+       </LinearLayout>
+
+      
+
+   </LinearLayout>
+    
+    
+    
+  
+   </ScrollView>

@@ -1,53 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.main"
+    package="info.androidhive.slidingmenuclient"
     android:versionCode="1"
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="8"
+        android:minSdkVersion="14"
         android:targetSdkVersion="17" />
-  <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
-        android:label="@string/app_name"
+        android:icon="@drawable/logo_big"
+        android:label="SMMClient"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.example.main.Loading_Activity"
-            android:label="@string/app_name" 
-             android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
-            <intent-filter>
+            android:name="info.androidhive.slidingmenu.MainActivity"
+            android:label="@string/app_name" >
+        
+        </activity>
+        <activity android:name="info.androidhive.slidingmenu.Loading_Activity" >
+              <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
- <activity
-            android:name="com.example.main.NextSignup"
+        <activity
+            android:name="info.androidhive.slidingmenu.Tab"
+            android:screenOrientation="portrait" >
+            
+        </activity>
+        <activity android:name="info.androidhive.slidingmenu.Gramarrian" >
+        </activity>
+        <activity android:name="info.androidhive.slidingmenu.Summary" >
+        </activity>
+        <activity android:name="info.androidhive.slidingmenu.Evaluator" >
+        </activity>
+        <activity android:name="info.androidhive.slidingmenu.Login1" >
+              
+        </activity>
+        <activity android:name="info.androidhive.slidingmenu.Register" >
+            
+        </activity>
+        <activity android:name="info.androidhive.slidingmenu.Meeting_Manager" >
+        </activity>
+        <activity android:name="info.androidhive.slidingmenu.Timer" >
+        </activity>
+        <activity android:name="info.androidhive.slidingmenu.Timernext" >
+        </activity>
+        <activity
+            android:name="info.androidhive.slidingmenu.AH"
+            android:label="@string/title_activity_ah" >
+        </activity>
+        <activity
+            android:name="info.androidhive.slidingmenu.Nextregister1"
+         >
+        </activity>
+        <activity
+            android:name="info.androidhive.slidingmenu.SecondNextreg1"
            >
         </activity>
-           <activity
-            android:name="com.example.main.Login"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
-        </activity>
-          <activity android:name="com.example.main.Datetimepicker" >
-        </activity>
-          <activity
-            android:name="com.example.main.SignUpp"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
-        </activity>
-         <activity
-            android:name="com.example.main.Nextcreatemeating"
-           >
-           
-        </activity>
-         <activity
-            android:name="com.example.main.Secondnextcreatemeating"
-           >    
-        </activity>
-          <activity android:name="Create_Meeting">
-   </activity>
     </application>
 
 </manifest>
